@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logistics Game</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<base target="_blank">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Logistics Game</a> </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#document">授業資料</a> </li>
+          <li> <a class="page-scroll" href="#board">進捗ボード</a> </li>
+          <li> <a class="page-scroll" href="#sheet">提出シート</a> </li>
+          <li> <a class="page-scroll" href="#schedule">授業日程</a> </li>
+          <li> <a class="page-scroll" href="#contact">問い合わせ</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Document Section -->
+<div id="document" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>授業資料</h2>
+      <hr>
+    </div>
+    <div>
+      <p>需要予測のファイルは<a href="https://logmanbox.github.io/logisticsgame/demand_forecast.zip">こちら</a></p>
+    </div>
+    <div>
+      <p>Gurobiモデルのファイルは<a href="https://logmanbox.github.io/logisticsgame/logisticsgame_model.zip">こちら</a></p>
+    </div>
+    <div>
+      <p>Gurobiのインストールマニュアルは<a href="https://logmanbox.github.io/logisticsgame/install_manual.pdf">こちら</a></p>
+    </div>
+    <div>
+      <p>ゲームマニュアルは<a href="https://logmanbox.github.io/logisticsgame/manual.pdf">こちら</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- Board Section -->
+<div id="board" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>進捗ボード</h2>
+      <hr>
+    </div>
+    <div>
+        <p>進捗の報告は<a href="https://airtable.com/shrgiGtDJIWm9uuWW">こちら</a></p>
+    </div>
+    <div>
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shrE4JmnsI6aJ42Ph?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Sheet Section -->
+<div id="sheet" class="text-center">
+    <div class="section-title center">
+        <h2>提出シート</h2>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row row-eq-height">
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/17mzWHzdtr31HVq4btR62Ea_aDhh5vBWVabw9j9BIBtI/edit#gid=987381796">１班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/1ZtW5dq9DJNBeboBPlBnrOWl1jIcncjw9j6GEy4ls66A/edit#gid=987381796">２班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/1dYz6qwcFTFYidijemYpVyHlwnX6ZMHKvUZtcel5fVmk/edit#gid=987381796">３班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/1m7HGScHzznP4RrEumanQCdl_jqifaRQm6Kk3PFAWIDQ/edit#gid=987381796">４班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/18F6kSd4EtdS4cGFircap2YlNFvIdJ545qW-ilmDf9MU/edit#gid=987381796">５班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/1DIgaz1rEL9MUqhHILuhR0yvKMC8ne1EKlUl1LJVEtCQ/edit#gid=987381796">６班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/1LLCX5QAVqd9KCdci_k0vcd6wMJVOCnrR6Ty2mTo0vsA/edit#gid=987381796">７班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/1TSfY9Ey2jpoG9hp3i0kY_wkV_zjLKCBc0mv-Ibueb_E/edit#gid=987381796">８班</a></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p><a href="https://docs.google.com/spreadsheets/d/1kycQPk2hC2ollogCCQQZ1CCqtfTbni1EotxSwv1NEGA/edit#gid=987381796">９班</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Schedule Section -->
+<div id="schedule" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>授業日程（変更可能性あり）</h2>
+      <hr>
+    </div>
+    <div>
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shroYY7BcmW0WvIpQ?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+    <div class="section-title center">
+      <h2>問い合わせ</h2>
+      <hr>
+    </div>
+    <div> <i class="fa fa-envelope-o fa-2x"></i>
+    <p>logmanbox@gmail.com</p>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2019 logmanbox Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
